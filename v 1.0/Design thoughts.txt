@@ -1,0 +1,198 @@
+Idea: simple board game with heavy inspiration from Runescape and other stereotypical fantasy games/settings, and recent board games I've seen on youtube, Sekigahara,
+  Beer & Bread, Ra, Lowenherz, Hammer of the Scots. And also inspiration from games I have played recently myself, like Cartographers and Ticket to Ride.
+Goal of the game: players complete enough quests to win the game, possibly each quest gives quest points, or victory points. Game ends after a certain threshold,
+  or possibly after a set number of turns, then players compare points
+Quests: Will vary on difficulty, and the type of skill needed to complete them. So one could be easy/medium/hard, and focus on a bounty (combat), delivering materials
+  (gathering, crafting, or possibly purchased), a job (thievery) (update - maybe some quests can have a time requirement? Meaning players will have to devote actions
+  in order to complete them. Like building a house. You will need lumber, as well as 2+ time value investment to complete. Maybe make some that don't require anything
+  other than time, but have a lower reward possibly?). Each quest will have a required thing to complete, like x amount of y product, or deliver z trophies.
+  Some of the harder ones may require more than one skill used, as well as the skill requirements increasing. There may also be secondary skills that are required. These
+  will have a main requirement, ie a product, but also require the player to have one of the listed skills as support, like level 2 magic or level 3 crafting. The idea is
+  for quests to have a strict skill requirement, but allow multiple support skills, depening on what each player has leveled up. So a player could complete the quest if
+  they had 2 magic and brought the requested product, or they had 3 thievery and brought the product.
+Quest Decks: There will be a deck for each difficulty of quest (easy/medium/hard), and there will always be 2 face-up quests that are available to players from each deck.
+  These are open and able to be acquired during the acquire quests action. Think of Ticket to Ride, there are some quests everyone can see and can be chosen, and when one
+  is taken, it will be replaced by another from the top of the deck. But a player can also grab from the top of the deck at random if they don't see an available quest they
+  prefer.
+Player quest card: Thinking players can hold as many as they would like, and they are all face up on the table (public knowledge). But each quest that is not completed
+  by the end of the game incurs a penalty. Either negative value of the quest points, or maybe a flat -2 or something. Noting here that I like the idea of players 
+  getting hard level quests early in the game, as long as they can get some lower level ones as well. Having a harder quest with a bigger reward incentivises them to
+  work towards a particular thing, they need to meet the requirements or figure out a way to complete the quest.
+Skills: combat, gathering, crafting, thievery, magic. Skill levels will be 1-5.
+Skill mechanics: Die rolls. The skill level you are at (1-5) determines how many die you get to roll during that action. The die will be as follows:
+  index | result
+    0       -1
+    1       0
+    2       0
+    3       +1
+    4       +1
+    5       +2
+  So this means if I am attempting to gather ore, and I have a gathering skill level of 2, I roll 2 skill dice. This could result in at worst, -2, or at best, +4.
+Magic and magic dice: Magic is different than the rest of the skills. It is meant to be a support skill, leveling it up will not gain you dice for a particular action,
+  but will gain you magic dice. These are different than skill dice, they have different results and have more flexibility. A player will get one magic die for each
+  level of magic they have, and are used a limited number of times per turn. During a normal skill roll, a player may use one of their magic dice, and roll it in
+  addition to their skill roll. The number of magic die used has to be declared before rolling, and must be rolled in tandem with the skill dice. They will add the
+  value of their magic die roll to their total skill check value, and use the result accordingly. These magic dice can only be used once per round, up to how many
+  they have available. Players can use multiple magic dice for a single skill check roll if desired. The die will be as follows:
+  index | result
+    0       0
+    1       +1
+    2       +1
+    3       +1
+    4       Reroll one skill or magic die
+    5       Reroll one skill or magic die
+  Magic dice will be recovered after the turn ends, for all players. (thinking about it, there may only need to be 5 dice total, not 5 per player. There could be a marker
+  or tally for each player, to indicate how many magic dice they have used this turn so far.) Also you can reroll the magic die that let you reroll a magic die, but you
+  may only reroll one time total, and all dice to be rerolled must be declared and rolled at the same time. So if I had rolled 5 magic dice that each landed on a reroll,
+  I would get to reroll 5 dice. I could select all 5 magic dice, but I would roll them all again at once, and the result is now final, new reroll results are 
+  effectively 0 (no infinite rerolling)
+Years and seasons: Game will end after a certain number of years? Each year has 4 seasons (spring, summer, fall, winter). The beginning of each season will bring a sale
+  (except the very first spring?). The beginning and half year will have the specilized sales, while the beginning of summer and winter will have the big general sale.
+  Thinking there may be 4 specilized sales, 2 are randomly assigned to spring and the other 2 for fall
+Market Sales: There will be specialized market sale for each (or group of) resource(s)/product(s), or a general event sale. The general market sale will
+  allow players to sell x number of each resource/product at +y value (or their high value). Specialized market sales will allow players to only sell the particular
+  resourge/product at -y (or their low value), but be able to sell as many as they want. Also will allow players to buy the specific resource at the given value, 
+  high value at general sales and low value at specific sales. Maybe each sale allows players 2 actions, buy, sell, or acquire quests, or attempt to steal/do a job.
+  So if a player doesn't want to buy or sell, they can still benefit from the sale by getting a quest they want, or 2, or stealing something.
+  Since there are exclusive pairs of products for crafting quests, I'll just use those pairs of products for determining the special sales. They can be on opposite
+  sides of a coin/token, and this can be flipped at the beginning of each year to determine which product gets in the first or second special sale. They will be linked:
+  Token/coin # | Side of coin/token | Resource and product for sale
+        1               A                   Ore/ingots
+        1               B                   Crops/food
+        2               A                   Lumber/planks
+        2               B                   Essence/runes
+  This may be better controlled by having separate tokens with each sides showing the same product, but this seems simpler for now. Note may need 2 of each token so
+  an indicator can be placed on each special sale in the time tracker.
+Resources: thinking there are multiple types, ore, produce, fshing, livestock?, lumber, etc. Players will be able to commit one or 2 actions to gathering a
+  particular resource, and depending on how many players are at the same gathering place, they each receive a number of that resource like:
+  # of tokens | skill die modifier
+        1               0
+        2               -1
+        3+              -2
+  and
+  order of arrival | extra resources gained
+        1               2
+        2               1
+        3+              0
+  The amount of resources gained will be the result of their die rolls. Players will roll a number of dice equal to their gathering skill level.
+Players will have a turn order, player 1 chooses their actions, then player 2, etc. then after all players have decided, then the actions can take place. Next turn,
+  the starting player will be the one on the left, rotating each turn.
+Seasonal actions: gather resources, acquire quests, refine resources, slay enemies, train skill
+Market actions: buy, sell, acquire quests, steal
+Bounties: There will be 3  enemy groups available to fight on the board at a given time, one for each difficulty, possibly rotating each season/half year/year. Players
+  can allocate their actions into one of these areas to fight that group. They are given trophies of that enemy which can then be turned in for bounty rewards. Thinking
+  there will be a bounty deck, with bounties revealed and available every year. Players will turn up as many bounties as there are players in the game. After bounties
+  are taken, they are not replaced until the next year/half year. And when new cards are drawn, all face up bounties not taken are discarded, guaranteeing flow of
+  new bounties every draw.
+Enemies: Thinking 2 per difficulty level (easy/medium/hard), with varying numbers of enemies on each card. If multiple players commit tokens to the same level of enemy
+  space, they will attack in order of arrival. Enemies may be eliminated, resulting in the first players killing everything available, leaving the rest with nothing. But
+  also the first player(s) may not have killed the enemy, but weakened them, leaving behind a frailer target for the next person in line. I want teaming up to be
+  essentially required for the hardest enemies, or at least one player be very decked out and have to commit both action tokens. Enemy cards that contain groups of
+  enemies will have multiple targets, and damage will roll over to the next target until all are slain or no more damage remains. Ex 3 damage will kill 3 goblins and 
+  leave three live goblins remaining, but 3 damage will not kill a troll, but that damage will stay applied for the next player to follow up and add to. Cards:
+  Difficulty | Enemy Card | Quantity | Health | Seasons
+    Easy        Goblins         6       1           Spring and summer
+    Easy        Bandits         4       2           Fall and winter
+    Medium      Werewolves      4       4           Spring and fall
+    Medium      Trolls          3       6           Summer and winter
+    Hard        Vampires        2       10          Winter and spring
+    Hard        Dragon          1       16          Summer and fall
+  Thinking each enemy difficulty will be on its own card. One side is enemy a and the other side is enemy b. Each enemy will be active in a certain season, and 
+  after seasons change, players will update the current available enemies to match the current season. Thinking everything will be available for 2 seasons.
+  The way it's set up, each season change will rotate 2 enemies and leave one the same. Players can track current number of enemies and enemy health with a 
+  marker on each card, thinking each card will have two tracks of numbers, one for quantity of enemy and other for their health.
+Stealing and jobs: Players will be able to make use of their theivery skill during sales. You can use a market action to attempt to steal something from that sale.
+  During speciliazed sales, you may only steal good related to their sale (including products), and during general sales, you may steal only resources, but it can be
+  any resource. Some quests are meant for stealing, they are received from the job deck. Unlike the normal quest decks, the job deck does not have any cards face up 
+  and available for everyone to see. Instead players will draw 2 cards from the deck, pick the one they like the most, and discard the other (this fits into the theme
+  of dirty jobs not being posted to the public, you gotta ask the right people to get the job). The jobs can be performed during these stealing market actions,
+  instead of stealing a particular resource/product. A job could be to steal from the lumber peddler that appears during the lumber sale. The player would need to 
+  wait until the season the lumber sale occurs in, and then perform their steal action in the market sale phase. A stealing job will have a difficulty level
+  represented by a number, and the player needs to roll their skill dice to match or exceed that number in order to complete the job. (Considered letting gold be
+  stealable, which makes sense, but that seems too easy. All other methods of obtaining gold are 2 degrees removed, either need to complete a quest, or sell something.
+  I mean, if you want gold, then get a stealing job. You will get victory points and money)
+Stealing mechanics: roll skill dice and apply number rolled. Players' steal value will be equal to their die roll. During general sales, they can only steal resources.
+  They may choose any number of any resource, totaling up to their total steal value. Ex a player with a steal value of 2 could steal one or and one lumber, or 2 lumber
+  if they wish. For specilized sales, players can also steal refined products as well as resources, but they can only be of the type of the sale. And products 'cost'
+  2 steal value to obtain. Ex a player with a steal value of 3 during an ore sale can choose to steal 3 ore, or 1 ore and 1 ingot.
+Refining resources: This action can turn raw materials (ore, lumber, food goods) into products. Each product requires 2 of its resource:
+  Required resources | Product 
+        2 ore               ingot
+        2 lumber            plank
+        2 crops?            food?
+        2 essence           runes?
+  The number of times you can refine things is determined by your crafting skill roll.
+  # of tokens | skill die modifier
+        1               0
+        2               +1
+        3+              +2
+  This dynamic leans into a 'collaberative effort' for multiple players refining resources or completing crafting quests at the same time.
+Training a skill: Not sure if available during seasons or markets (currently markets). Have multiple thoughts on this, could be interesting to discount the cost of 
+  training the more players that are using the training action. Like you only need to pay the professors a flat fee, and the more players that show up, divide that 
+  cost between them. Or possibly a flat fee for each player, but minus x for every additional player doing the same action. If market actions do not happen on the same
+  action order as seasons, this could be awkward. (What if you could pay or get a discount by bringing a resource/product? It would make sense for magiv training to
+  bring essence or runes. Combat=lumber/ingots, gathering=crops/planks theving=ore/food, magic=essence/runes. Might be unreasonably complex)
+Quest ideas: For refining products (not resources) I want there to be an interesting combination of products for quest goals. These combinations won't be a 
+  commodity, or tanglible thing to keep track of. They will just be quest goals that you can attempt to craft if you have the combination of resources and products
+  required. Ideas:
+  Ingredients       | result
+    ingot + ingot       weapons/armor
+    ingot + plank       building/ship/?
+    ingot + food        (none)
+    ingot + runes       enchantment
+    plank + plank       fences/?
+    plank + food        supplies (like a crate or barrel of food?)
+    plank + runes       (none)
+    food + food         fancy meals/?
+    food + runes        potions
+    runes + runes       spells?/
+  Each product will have one other product that no quests will combine, ingots and food together, and planks and runes together. And each will have a crafting skill
+  check required.
+This and that quests: Can be ones that any player of any skill level could be able to complete, maybe just not easily or takes less time. Thinking these quests take
+  place at a certain area of the board. But during the gather phase, this player will not roll to gather resources, they will roll to complete their quest. But their
+  presence in the area still applies any token bonuses/restrictions to themselves or any other player. For example, if a player has a quest to save a woman's cat 
+  from a tree, they would place their token in the gather lumber space during the planning phase, and during the gathering phase, they would attempt their quest. 
+  Let's say 1 other token was in that space, and was there first. Since the questing player got there second, they get to receive 1 free lumber resource, and have 
+  a -1 skill die modifier to their roll for the quest. Each quest will have a skill level needed to pass, and the player will roll skill die according to what area
+  they are in. If players are in the taverm, they may choose any skill dice to roll (thinking maybe the card tells the player what to roll? But any modifiers from
+  token stuff apply). Maybe these can also take place in the market? At least on the steal space, like a hired guard (but probly won't interact with other players'
+  stealing attempts?). Thinking I may have resources/products listed on these cards, and if you spend one of them, you get a +1 modifier to your die roll, and can
+  be multiple if multiple are listed on the card.
+Completing quests: Quests are completed and renown is gained as soon as the player meets the requirements of the quest, having resources/products or trophies, 
+  succeeding a skill check, etc. Any items needed to complete the quest are immediately discarded, and cannot be used for multiple quests at the same time.
+Turn order: Initially thinking player who plays first in a turn will determine the order of events for the turn? Might be too complicated. Maybe the first player 
+  decides what happens first, then second player decides what happens next, and so on.
+
+
+
+
+############################################################################
+Note keeping so I don't throw away ideas I might want to use/reference later
+############################################################################
+
+Scrapped resource ideas:
+  # of tokens | resources gained
+        1               5
+        2               4
+        3               3
+        4               2
+        5+              1
+  the distinction of number of tokens is important, because one player can choose to place both of their action tokens into a single gathering location, in which case,
+  they would get extra. Best case they get 8 (two 4's) instead of 5 (a single 5), or worst case 2 instead of 1.
+  or
+  order of arrival | resources gained
+        1               3
+        2               2
+        3+              1
+  In this case, I would lean toward players arriving in a queue. First token in gets the large amount of resources (3), second gets above average (2), and all following
+  tokens get only one.
+  or
+  order of arrival | extra resources gained
+        1               3
+        2               2
+        3+              1
+  or
+  order of arrival | skill die modifier
+        1               +2
+        2               0
+        3+              -2
