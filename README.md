@@ -1,2 +1,2 @@
 # Quest
-My idea of a simple strategy board game. There is a txt file included that contains all thoughts and rules I came up with. Nothing is final yet, I still need to balance the game. I may make a prototype physical version, or I may try to code something up quickly as a mock up. I spent a lot of time thinking this through, it may deserve some more love and attention
+My idea of a simple strategy board game. There is a txt file included that contains all thoughts and rules I came up with. Nothing is final yet, I still need to balance the game. I may make a prototype physical version, or I may try to code something up quickly as a mock up. I spent a lot of time thinking this through, it may deserve some more love and attention.
